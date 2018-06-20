@@ -74,7 +74,7 @@ group :test do  # Kirill chapter 3 railstutorial
   gem 'database_cleaner'
   # Uncomment these lines on Windows.
   gem 'rb-notifu', '0.0.4'
-  gem 'win32console', '1.3.2'
+  # gem 'win32console', '1.3.2'
   gem 'wdm'  #Delete because directory version is not updated '0.1.0' 
 end
 group :doc do
