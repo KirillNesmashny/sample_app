@@ -50,8 +50,10 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails' 
   # The following optional lines are part of the advanced setup.
-  # gem 'guard-rspec', '2.5.0'
-  # gem 'spork-rails', '4.0.0'
+  gem 'guard-rspec' # Listing 3.6.2
+  #Spork does not support  in rails >5 gem 'spork-rails' # Listing 3.6.2
+  #Spork does not support  in rails >5 gem 'spork', '1.0.0rc0'# Listing 3.6.2
+  #Spork does not support  in rails >5 gem 'guard-spork'# Listing 3.6.2
   # gem 'guard-spork', '1.5.0'
   # gem 'childprocess', '0.3.6'
 end
